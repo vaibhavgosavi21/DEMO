@@ -1,0 +1,14 @@
+package Inheritance;
+
+public class Company {
+	private int ;
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,102 @@
+package Model;
+
+public class Vehicle {
+	private String vehicleId;
+	private double rentalRate;
+	private boolean isAvailable;
+	private int rentedDays;
+	private boolean underMaintenance;
+
+	//constructor
+	public Vehicle(String vehicleId, double rentalRate) {
+		super();
+		this.isAvailable = true;
+		this.underMaintenance = false;
+		this.vehicleId = vehicleId;
+		this.rentalRate = rentalRate;
+		this.rentedDays =0;
+	}
+
+	// Methods
+	public void rent(int days) {
+		if(this.isAvailable) {
+		double bill=this.rentalRate*days;
+		System.out.println("Total Bill Amount : "+bill);
+		paymentGateWay.processPayment(bill);
+		System.out.println("Total Amount : "+bill);
+		
+		boolean payment=paymentGateWay.processPayment(bill);
+		if(payment) {
+		isAvailable=false;
+		rentedDays=days;
+		receiptGenerator.generateReceipt(name, this, bill);
+		System.out.println("Sending Bill to your Email..........");
+		EmailService.sendBookingConfirmation();
+		return true;
+		
+		}
+		System.out.println("Payment Failed...., Please try again");
+		return false;
+	}
+		System.out.println("Vahicle not available....");
+		return false;
+}
+	
+
+	public void returnvehicle() {
+		
+	}
+
+	public void sendForMaintenace() {
+
+	}
+
+	public void completeMaintenance() {
+
+	}
+
+	
+	// Getters and setters
+	public String getVehicleId() {
+		return vehicleId;
+	}
+
+	public void setVehicleId(String vehicleId) {
+		this.vehicleId = vehicleId;
+	}
+
+	public double getRentalRate() {
+		return rentalRate;
+	}
+
+	public void setRentalRate(double rentalRate) {
+		this.rentalRate = rentalRate;
+	}
+
+	public boolean isAvailable() {
+		return isAvailable;
+	}
+
+	public void setAvailable(boolean isAvailable) {
+		this.isAvailable = isAvailable;
+	}
+
+	public int getRentedDays() {
+		return rentedDays;
+	}
+
+	public void setRentedDays(int rentedDays) {
+		this.rentedDays = rentedDays;
+	}
+
+	public boolean isUnderMaintenance() {
+		return underMaintenance;
+	}
+
+	public void setUnderMaintenance(boolean underMaintenance) {
+		this.underMaintenance = underMaintenance;
+	}
+
+	
+
+}

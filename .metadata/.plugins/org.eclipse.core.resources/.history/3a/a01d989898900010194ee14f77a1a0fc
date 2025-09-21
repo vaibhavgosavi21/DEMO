@@ -1,0 +1,16 @@
+package Constructor_chaining;
+
+public class Static_execution {
+	
+	static String name;
+	
+	static{
+		System.out.println("Static block");
+		
+	}
+	
+	static void display() {
+		System.out.println("Static method");
+	}
+	
+}

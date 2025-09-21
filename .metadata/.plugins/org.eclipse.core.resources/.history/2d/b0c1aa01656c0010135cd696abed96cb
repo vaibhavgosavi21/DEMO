@@ -1,0 +1,12 @@
+package OOP;
+
+public class Account2Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Account2 obj=new Account2();
+		
+		System.out.println("Account No:"+obj.getAccNumber());
+		}
+
+}

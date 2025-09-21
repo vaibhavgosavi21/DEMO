@@ -1,0 +1,8 @@
+package Inheritance;
+
+public class car {
+	String carname;
+	String fueltype;
+	
+
+}

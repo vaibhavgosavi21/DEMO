@@ -1,0 +1,24 @@
+package Execution_process;
+
+public class Static_execution {
+	
+	static String name;
+	
+	static{
+		System.out.println("Static block");
+	}
+	
+	static void display() {
+		System.out.println("Static method");
+	}
+	
+ 	Static_execution(){
+		System.out.println("constructor");
+	}
+	 
+	public static void main(String[] args) {
+		
+		Static_execution s= new Static_execution();
+		s.display();
+	}
+}

@@ -1,0 +1,26 @@
+package Constructor_chaining;
+
+public class mix {
+	static String name;
+	int no;
+
+	static{
+		System.err.println("Static block");
+	}
+	
+	{
+		System.out.println("Non Static block");
+	}
+	
+	mix(){
+		System.out.println("Constructor");
+	}
+	
+	static void display() {
+		System.out.println("Static method");
+	}
+	
+	void show() {
+		System.out.println("Non static method");
+	}
+}

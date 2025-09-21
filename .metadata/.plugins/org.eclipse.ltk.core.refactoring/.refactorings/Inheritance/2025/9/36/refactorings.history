@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Multiple_inheritance.main&apos; to &apos;RelationMain&apos;&#x0D;&#x0A;- Original project: &apos;Inheritance&apos;&#x0D;&#x0A;- Original element: &apos;Multiple_inheritance.main&apos;&#x0D;&#x0A;- Renamed element: &apos;Multiple_inheritance.RelationMain&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;main&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Multiple_inheritance{main.java[main" matchStrategy="1" name="RelationMain" qualified="false" references="true" similarDeclarations="false" stamp="1756962458247" textual="false" version="1.0"/>
+</session>

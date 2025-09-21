@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;While_Loop.Sum_of_n_numbers&apos; to &apos;Sum_of_NaturalNo&apos;&#x0D;&#x0A;- Original project: &apos;Looping_Statements&apos;&#x0D;&#x0A;- Original element: &apos;While_Loop.Sum_of_n_numbers&apos;&#x0D;&#x0A;- Renamed element: &apos;While_Loop.Sum_of_NaturalNo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Sum_of_n_numbers&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;While_Loop{Sum_of_n_numbers.java[Sum_of_n_numbers" matchStrategy="1" name="Sum_of_NaturalNo" qualified="false" references="true" similarDeclarations="false" stamp="1754767347293" textual="false" version="1.0"/>
+</session>

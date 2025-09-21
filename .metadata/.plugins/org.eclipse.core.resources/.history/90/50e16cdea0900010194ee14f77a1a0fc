@@ -1,0 +1,19 @@
+package constructorChaining;
+
+public class Class_A {
+	
+	Class_A(){
+		System.out.println("No argument");
+	}
+	
+	Class_A(int a){
+		System.out.println(a);
+	}
+	
+	Class_A(char b){
+		System.out.println(b);
+	}
+	
+	
+
+}

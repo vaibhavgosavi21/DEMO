@@ -1,0 +1,20 @@
+package constructorChaining;
+
+public class B extends A {
+	B(){
+		System.out.println("B No argument");
+	}
+	
+	B(int a){
+		System.out.println("B integer");
+	}
+	
+	B(char c){
+		System.out.println("B character");
+	}
+	
+	B(float f){
+		System.out.println("B Float");
+	}
+
+}

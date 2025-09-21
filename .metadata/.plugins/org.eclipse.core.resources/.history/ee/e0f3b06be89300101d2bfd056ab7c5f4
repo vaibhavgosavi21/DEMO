@@ -1,0 +1,14 @@
+package Model;
+
+public class EmailService {
+	public static void sendBookingConfirmation() {
+		
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		System.out.println("Booking mail sned Scceesfully...");
+	}
+
+}

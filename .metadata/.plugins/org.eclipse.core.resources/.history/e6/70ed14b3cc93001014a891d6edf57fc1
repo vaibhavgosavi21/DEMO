@@ -1,0 +1,9 @@
+package Inheritance;
+
+public class Wipro extends Company {
+	private long employeeCount;
+	private String loc;
+	private int noOfsept;
+	private String workinghours;
+
+}

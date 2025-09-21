@@ -1,0 +1,15 @@
+package Model;
+
+public class EmailService {
+	//sender mail
+	private final static String senderMail="";
+	private final static String senderpass="";
+	
+	public static void sendBookingConfirmation() {
+		
+		String subject="Vehicle Rental Confirmation";
+		String body="Hello "+cname+", your booked vehicle successfully. with vehicle id "+
+		System.out.println("Booking mail send Successfully...");
+	}
+
+}

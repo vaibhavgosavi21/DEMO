@@ -1,0 +1,14 @@
+package Model;
+
+import java.util.Scanner;
+
+public class paymentGateWay {
+	static Scanner sc=new Scanner(System.in);
+	
+	public static boolean processPayment(double bill) {
+		System.out.println("Enter Amount To Pay: ");
+		int amount=sc.nextInt();
+		
+		return false;
+	}
+}

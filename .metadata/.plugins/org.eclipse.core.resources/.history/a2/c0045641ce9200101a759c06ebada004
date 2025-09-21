@@ -1,0 +1,44 @@
+package Model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Customer {
+	private String cname;
+	private long mobileno;
+	private boolean isLicenseAvailable;
+	private List<Vehicle> Vehicle;
+	
+	
+	
+	public Customer(String cname, long mobileno, boolean isLicenseAvailable) {
+		super();
+		this.cname = cname;
+		this.mobileno = mobileno;
+		this.isLicenseAvailable = isLicenseAvailable;
+		Vehicle = new ArrayList<Vehicle>();
+	}
+
+	
+
+	public  void rentvehicle(Vehicle vehicle, int days) {
+		
+		if(vehicle.rent(days,this.cname)) {
+			System.out.println("REnted Vehicle:  "+Vehicle.add(vehicle));
+//			Vehicle.add(vehicle);
+		}
+	}
+
+	
+	public void returnAllvehicle() {
+		
+	}
+	
+	public void viewRentedVehicle() {
+		System.out.println("List of Rented Vehicles");
+		Vehicle.forEach(val-> System.out.println(val.getVehicleId()));
+		
+	}
+	
+
+}

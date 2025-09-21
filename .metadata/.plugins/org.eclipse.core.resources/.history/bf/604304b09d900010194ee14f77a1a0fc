@@ -1,0 +1,19 @@
+package Constructor_chaining;
+
+public class Non_static_exe {
+	
+	String name;
+	
+	//Non Stsic block
+	{
+		System.out.println("Non ststic block");
+	}
+	
+	//Non static method
+	void display() {
+		System.out.println("Non Static method");
+	}
+	
+	
+
+}

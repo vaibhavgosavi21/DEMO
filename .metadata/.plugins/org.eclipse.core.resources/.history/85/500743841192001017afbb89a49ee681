@@ -1,0 +1,8 @@
+package Model;
+
+public class EmailService {
+	public static void sendBookingConfirmation() {
+		
+	}
+
+}

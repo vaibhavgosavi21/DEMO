@@ -1,0 +1,13 @@
+package BasicArray;
+
+public class Arr1 {
+	
+	public static void main(String[] args) {
+		
+		int numbers[]= {1,4,6,33,55};
+		
+		System.out.println(numbers[3]);
+		
+	}
+
+}

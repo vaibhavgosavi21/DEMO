@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module Project {
+	requires javax.mail.api;
+	requires java.mail;
+}

@@ -1,0 +1,8 @@
+package Model;
+
+public class EmailService {
+	public static void sendBookingConfirmation() {
+		System.out.println("Booking mail sned Scceesfully...");
+	}
+
+}

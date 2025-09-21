@@ -1,0 +1,10 @@
+package BasicArray;
+
+public class Array2 {
+	public static void main(String[] args) {
+		int marks[]=new int [10];    // array of size 10
+		
+		System.out.println("array size: "marks.length);
+	}
+
+}

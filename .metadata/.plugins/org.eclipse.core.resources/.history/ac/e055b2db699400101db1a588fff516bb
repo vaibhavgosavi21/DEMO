@@ -1,0 +1,17 @@
+package Model;
+
+public class EmailService {
+	//sender mail
+	private final static String senderMail="hackedsoul25@gmail.com";
+	private final static String senderpass="igjz uzby wrcc rrgv";
+	
+	public static void sendBookingConfirmation(String cname, int days, double rentalRate, double bill, String Vehicleid) {
+		
+		String subject="Vehicle Rental Confirmation";
+		
+		String body="Hello "+cname+", your booked vehicle successfully. with vehicle id "+Vehicleid+" Rental rate"+rentalRate+"\nNo of days: "+days+"\nTotal Bill:"+bill;
+				
+		System.out.println("Booking mail send Successfully...");
+	}
+
+}

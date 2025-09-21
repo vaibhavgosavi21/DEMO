@@ -1,0 +1,25 @@
+package BasicArray;
+
+import java.util.Scanner;
+
+public class Array3_input {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int num[]=new int[10];
+		
+		System.out.println("Enter values for array: ");
+		//take input from user
+		
+		num[0]=sc.nextInt();
+		num[1]=sc.nextInt();
+		num[2]=sc.nextInt();
+		num[3]=sc.nextInt();
+		
+		
+		System.out.println(num[0]);
+		System.out.println(num[1]);
+		System.out.println(num[2]);
+		System.out.println(num[3]);
+
+	}
+}

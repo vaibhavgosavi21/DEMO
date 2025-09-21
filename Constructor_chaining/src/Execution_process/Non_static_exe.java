@@ -1,0 +1,25 @@
+package Execution_process;
+
+public class Non_static_exe {
+	
+	String name;
+	
+	//Non Static block
+	{
+		System.out.println("Non static block");
+	}
+	
+	//Non static method
+	void display() {
+		System.out.println("Non Static method");
+	}
+	
+	Non_static_exe(){
+		System.out.println("Constructor");
+	}
+	
+ public static void main(String[] args) {
+	 Non_static_exe ns=new Non_static_exe();
+	 ns.display();
+}
+}

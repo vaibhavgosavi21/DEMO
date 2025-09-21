@@ -1,0 +1,11 @@
+package Model;
+
+public class paymentGateWay {
+
+	public static boolean processPayment(double bill) {
+		
+		
+		
+		return false;
+	}
+}

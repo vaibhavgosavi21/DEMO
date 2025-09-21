@@ -1,0 +1,19 @@
+package BasicArray;
+
+public class Arr1 {
+	
+	public static void main(String[] args) {
+		
+		int numbers[]= {1,4,6,33,55};  //array
+		
+		System.out.println(numbers.length);  //array lenght
+		
+		System.out.println(numbers[0]); //print array value at index 0
+		System.out.println(numbers[1]); //print array value at index 1
+		System.out.println(numbers[2]); //print array value at index 2
+		System.out.println(numbers[3]); //print array value at index 3
+		System.out.println(numbers[4]); //print array value at index 4
+
+	}
+
+}

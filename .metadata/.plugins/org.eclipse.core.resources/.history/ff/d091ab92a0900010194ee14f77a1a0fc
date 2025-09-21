@@ -1,0 +1,9 @@
+package constructorChaining;
+
+public class Class_A {
+	Class_A(){
+		System.out.println();
+	}
+	
+
+}
